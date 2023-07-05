@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujjar Mart</title>
+
+    <!-- Css file link  -->
+    <link rel="stylesheet" href="mart.css">
+
+    <!-- Fav Icon  -->
+    <link rel="Icon" href="pics/fav.png">
+
+    <!-- Bootstrap Links  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Google Fonts Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script:wght@400;600;700&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awosome Icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"><img src="pics/fav.png" alt="logo" class="logo"></a>
+            <a class="navbar-brand" href="#">
+                <p class="title"><b>Gujjar Mart</b></p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="nav-btn1">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <p class="home-btn"><b>Home</b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-btn">
+                        <a class="nav-link" href="#">
+                            <p class="about-btn"><b>About</b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-btn">
+                        <a class="nav-link" href="#">
+                            <p class="about-btn" id="login_message"></p>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown" id="nav-btn">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Social Media
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.youtube.com/@CyberMaxAcademy/videos"
+                                    target="_blank">
+                                    <p>Youtube</p>
+                                </a></li>
+                            <li><a class="dropdown-item" href="https://www.facebook.com/CyberMaxAcademy2198"
+                                    target="_blank">
+                                    <p>FaceBook</p>
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/cybermax_academy_0fficial_id/"
+                                    target="_blank">
+                                    <p>Instagram</p>
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled"></a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 " id="search_input" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- =========================================================================================== -->
+
+
+
+    <div class="container-fluid slider-div">
+
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="pics/banners/banner1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Welcome to Gujjar Mart</h5>
+                                <p>Best Products Are Available on Our Mart </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="pics/banners/banner2.png" class="d-block w-100" alt="...">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="pics/banners/banner3.png" class="d-block w-100" alt="...">
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ================================================================================================= -->
+
+    <div id="shop_now_btn_jump" class="container shop-btn-div">
+
+        <div class="row">
+
+            <a href="#product" style="text-decoration: none;">
+                <div type="button" class="shop-btn col-lg-12 col-md-12 col-lg-12">
+                    Shop Now
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- ================================================================================================= -->
+    <nav id="product">
+        <div class="container product-main-div">
+            <!-- row 1 of Products  -->
+            <div class="row">
+                <!-- product 1 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 product-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 product-box-image">
+                                <img src="pics/boys/boy1.png" class="prod_img_css" alt="...">
+                            </div>
+                        </div>
+                        <div class="row product-box-btn-plus-mius-cart-main">
+                            <div class="col-4 product-box-plus-minus">
+                                <div class="product-box-minus-internal-btn" id="Product_1_minus"
+                                    onclick="Product_1_minus()">-</div> &nbsp;
+                                <div class="product-box-minus-internal-quantity-btn">
+                                    <input value="0" onclick="Product_1_quantity()" id="Product_1_quantity"
+                                        class="product-box-minus-internal-quantity-input" type="text">
+                                </div> &nbsp;
+                                <div class="product-box-plus-internal-btn" id="Product_1_plus"
+                                    onclick="Product_1_plus()">+</div>
+                            </div> &emsp;
+                            <div class="col-4 product-box-cart" id="add-p1" onclick="Product1()"><i
+                                    class="fa-solid fa-plus icon"></i><i class="fa-solid fa-cart-shopping icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product 2 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 product-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 product-box-image">
+                                <img src="pics/boys/boy2.png" class="prod_img_css" alt="...">
+                            </div>
+                        </div>
+                        <div class="row product-box-btn-plus-mius-cart-main">
+                            <div class="col-4 product-box-plus-minus">
+                                <div class="product-box-minus-internal-btn" id="Product_2_minus"
+                                    onclick="Product_2_minus()">-</div> &nbsp;
+                                <div class="product-box-minus-internal-quantity-btn">
+                                    <input value="0" disabled onclick="Product_2_quantity()"
+                                        class="product-box-minus-internal-quantity-input" id="Product_2_quantity"
+                                        type="text">
+                                </div> &nbsp;
+                                <div class="product-box-plus-internal-btn" id="Product_2_plus"
+                                    onclick="Product_2_plus()">+</div>
+                            </div> &emsp;
+                            <div class="col-4 product-box-cart" id="add-p2" onclick="Product2()"><i
+                                    class="fa-solid fa-plus icon"></i><i class="fa-solid fa-cart-shopping icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product 3 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 product-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 product-box-image">
+                                <img src="pics/boys/boy3.png" class="prod_img_css" alt="...">
+                            </div>
+                        </div>
+                        <div class="row product-box-btn-plus-mius-cart-main">
+                            <div class="col-4 product-box-plus-minus">
+                                <div class="product-box-minus-internal-btn" id="Product_3_minus"
+                                    onclick="Product_3_minus()">-</div> &nbsp;
+                                <div class="product-box-minus-internal-quantity-btn">
+                                    <input disabled value="0" onclick="Product_3_quantity()"
+                                        class="product-box-minus-internal-quantity-input" id="Product_3_quantity"
+                                        type="text">
+                                </div> &nbsp;
+                                <div class="product-box-plus-internal-btn" id="Product_3_plus"
+                                    onclick="Product_3_plus()">+</div>
+                            </div> &emsp;
+                            <div class="col-4 product-box-cart" id="add-p3" onclick="Product3()"><i
+                                    class="fa-solid fa-plus icon"></i><i class="fa-solid fa-cart-shopping icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ================================================================================================= -->
+
+            <!-- ================================================================================================= -->
+
+            <!-- row 2 of Products  -->
+            <div class="row">
+                <!-- product 1 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 product-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 product-box-image">
+                                <img src="pics/girls/girl1.png" class="prod_img_css" alt="...">
+                            </div>
+                        </div>
+                        <div class="row product-box-btn-plus-mius-cart-main">
+                            <div class="col-4 product-box-plus-minus">
+
+                                <div class="product-box-minus-internal-btn" id="Product_4_minus"
+                                    onclick="Product_4_minus()">-</div> &nbsp;
+                                <div class="product-box-minus-internal-quantity-btn">
+                                    <input disabled value="0" onclick="Product_4_quantity()"
+                                        class="product-box-minus-internal-quantity-input" id="Product_4_quantity"
+                                        type="text">
+                                </div> &nbsp;
+                                <div class="product-box-plus-internal-btn" id="Product_4_plus"
+                                    onclick="Product_4_plus()">+</div>
+
+                            </div> &emsp;
+                            <div class="col-4 product-box-cart" id="add-p4" onclick="Product4()"><i
+                                    class="fa-solid fa-plus icon"></i><i class="fa-solid fa-cart-shopping icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product 2 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 product-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 product-box-image">
+                                <img src="pics/girls/girl3.png" class="prod_img_css" alt="...">
+                            </div>
+                        </div>
+                        <div class="row product-box-btn-plus-mius-cart-main">
+                            <div class="col-4 product-box-plus-minus">
+                                <div class="product-box-minus-internal-btn" id="Product_5_minus"
+                                    onclick="Product_5_minus()">-</div> &nbsp;
+                                <div class="product-box-minus-internal-quantity-btn">
+                                    <input disabled value="0" onclick="Product_5_quantity()" id="Product_5_quantity"
+                                        class="product-box-minus-internal-quantity-input" type="text">
+                                </div> &nbsp;
+                                <div class="product-box-plus-internal-btn" id="Product_5_plus"
+                                    onclick="Product_5_plus()">+</div>
+                            </div> &emsp;
+                            <div class="col-4 product-box-cart" id="add-p5" onclick="Product5()"><i
+                                    class="fa-solid fa-plus icon"></i><i class="fa-solid fa-cart-shopping icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product 3 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 product-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 product-box-image">
+                                <img src="pics/girls/girl4.png" class="prod_img_css" alt="...">
+                            </div>
+                        </div>
+                        <div class="row product-box-btn-plus-mius-cart-main">
+                            <div class="col-4 product-box-plus-minus">
+                                <div class="product-box-minus-internal-btn" id="Product_6_minus"
+                                    onclick="Product_6_minus()">-</div> &nbsp;
+                                <div class="product-box-minus-internal-quantity-btn">
+                                    <input disabled value="0" onclick="Product_6_quantity()" id="Product_6_quantity"
+                                        class="product-box-minus-internal-quantity-input" type="text">
+                                </div> &nbsp;
+                                <div class="product-box-plus-internal-btn" id="Product_6_plus"
+                                    onclick="Product_6_plus()">+</div>
+                            </div> &emsp;
+                            <div class="col-4 product-box-cart" id="add-p6" onclick="Product6()"><i
+                                    class="fa-solid fa-plus icon"></i><i class="fa-solid fa-cart-shopping icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ================================================================================================= -->
+            <div class="container" id="yes_no_main">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="ques_text">Do you want more Shopping ?🙄</h3>
+                    </div>
+                </div>
+                <div class="row" style="justify-content: space-between;padding-left: 20px;padding-right: 20px;">
+
+                    <div class="col-lg-4 col-md-12 col-sm-12 yes" onclick="yes()">
+                        <a href="#shop_now_btn_jump" style="color: white; text-decoration: none;">Yes</a>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-12 col-sm-12 no" onclick="no()">
+                        No
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================================================================================================= -->
+
+            <div class="container" id="reciept">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-sm-12 reciept_left">
+
+
+                        <form class="reciept_form">
+                            <fieldset class="reciept_form_fieldset">
+                                <div class="container">
+                                    <!-- form row 1 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label for="User">
+                                                <p class="leftf_lable_name_bill"><i
+                                                        class="fa-solid fa-user"></i>&ensp;<b>Customer :</b></p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input value="" id="Customer_name" type="text" disabled
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+                                    <!-- form row 2 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label>
+                                                <p class="leftf_lable_css"><i
+                                                        class="fa-solid fa-shirt"></i>&ensp;Product 1 (1500/- Rs)
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input id="p1" disabled type="number" value=""
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 3 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label>
+                                                <p class="leftf_lable_css"><i
+                                                        class="fa-solid fa-shirt"></i>&ensp;Product 2 (1600/- Rs)
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input id="p2" type="number" value="" disabled
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 4 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label>
+                                                <p class="leftf_lable_css"><i
+                                                        class="fa-solid fa-shirt"></i>&ensp;Product 3 (1700/- Rs)
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input value="" id="p3" type="number" disabled
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 5 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label>
+                                                <p class="leftf_lable_css"><i
+                                                        class="fa-solid fa-shirt"></i>&ensp;Product 4 (1800/- Rs)
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input id="p4" type="number" value="" disabled
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 6 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label>
+                                                <p class="leftf_lable_css"><i
+                                                        class="fa-solid fa-shirt"></i>&ensp;Product 5 (1900/- Rs)
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input id="p5" type="number" value="" disabled
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 7 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label>
+                                                <p class="leftf_lable_css"><i
+                                                        class="fa-solid fa-shirt"></i>&ensp;Product 6 (2000/- Rs)
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input id="p6" type="number" value="" disabled
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+                                    <br><br>
+                                    <!-- form row 8 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <label>
+                                                <p class="leftf_lable_name_bill"><i
+                                                        class="fa-sharp fa-solid fa-money-check-dollar"></i> &nbsp;Total
+                                                    Bill :
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-lg-9 col-md-12 col-sm-12">
+                                            <input id="final_bill" type="number" value="" disabled
+                                                style="background-color: white; border-radius: 5px;">
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+                            </fieldset>
+                        </form>
+
+
+                    </div>
+                    &emsp;&emsp;&emsp;
+                    <!-- =========================== Form right Side              ========================================================= -->
+                    <div class="col-lg-4 col-md-12 col-sm-12 reciept_right">
+
+
+                        <form class="reciept_right_form">
+                            <fieldset class="reciept_right_form_fieldset">
+                                <div class="container">
+                                    <!-- form Heading -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+
+                                            <h3 style="color: black; text-align: center;color: rgb(34, 28, 28); text-decoration: underline;"
+                                                onMouseOver="this.style.color='red'"
+                                                onMouseOut="this.style.color='black'">RECEIPT
+                                            </h3>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- form row 1 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label for="User">
+                                                <p style="font-size: 10px;color: black;"><b>Customer :</b></p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input value="" id="rightf1" type="text" disabled
+                                                style="background-color: white;width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+                                    <!-- form row 2 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label>
+                                                <p style="font-size: 10px;color: black; ">
+                                                    Total Quantity
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input id="rightf2" disabled type="number" value=""
+                                                style="background-color: white; border-radius: 5px;width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 3 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label>
+                                                <p style="font-size: 10px;color: black; ">
+                                                    Total :
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input id="rightf3" disabled type="number" value=""
+                                                style="background-color: white; border-radius: 5px; width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 4 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label>
+                                                <p style="font-size: 10px;color: black; ">
+                                                    GST (15% of Total) :
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input id="rightf4" disabled type="number" value=""
+                                                style="background-color: white; border-radius: 5px; width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 5 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label>
+                                                <p style="font-size: 10px;color: black; ">
+                                                    Discount (10% of Total) :
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input id="rightf5" disabled type="number" value=""
+                                                style="background-color: white; border-radius: 5px; width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 6 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label>
+                                                <p style="font-size: 10px;color: black; ">
+                                                    Net Total :
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input id="rightf6" disabled type="number" value=""
+                                                style="background-color: white; border-radius: 5px; width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 7 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label>
+                                                <p style="font-size: 10px;color: black; ">
+                                                    Day :
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input id="rightf7" disabled type="number" placeholder="Monday"
+                                                style="background-color: white; border-radius: 5px; width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- form row 8 -->
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-5 col-lg-5 col-md-12 col-sm-12">
+                                            <label>
+                                                <p style="font-size: 10px;color: black; ">
+                                                    Date :
+                                                </p>
+                                            </label>
+                                        </div>
+                                        &emsp;
+                                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                            <input id="rightf8" disabled type="number" placeholder="20-June-2023"
+                                                style="background-color: white; border-radius: 5px; width: 100%; font-size: 10px; border: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <!-- form Bar Code -->
+                                    <div class="row">
+                                        <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                                            <!-- <img id="bar_code" src="pics/bar_code.png" alt="BC" > -->
+                                            <img src="pics/bar_code.png" class="img-fluid" alt="...">
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+                            </fieldset>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- ================================================================================================= -->
+        </div>
+
+        </div>
+    </nav>
+    <!-- ================================================================================================= -->
+
+
+
+
+
+
+
+
+    <script src="mart.js"></script>
+    <script src="password.js"></script>
+    <!-- ++++++++++++++++   Audio Files    ++++++++++++++++ -->
+    <audio src="Audio/alarm.mp3" id="al"></audio>
+    <audio src="Audio/empty_inputs.mp3" id="empty_inputs_Audio" autoplay></audio>
+    <audio src="Audio/add_to_cart.mp3" id="add_to_cart_Audio" autoplay></audio>
+    <audio src="Audio/Login.mp3" id="Login_success_Audio" autoplay></audio>
+
+
+
+
+</body>
+
+</html>
